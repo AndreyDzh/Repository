@@ -6,7 +6,9 @@ namespace for_GitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(a+b);
         }
     }
 }
